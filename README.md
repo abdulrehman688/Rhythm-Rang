@@ -48,7 +48,7 @@ The project also includes a **custom AI chatbot** built in Python (Flask, PyTorc
 - CRUD-based admin panel
 
 ---
-
+---
 ## 📂 Project Structure
 
 Sound/
@@ -92,7 +92,7 @@ Sound/
 │
 ├─ sound.sql                       # MySQL database dump
 └─ README.md
-
+---
 
 
 ---
