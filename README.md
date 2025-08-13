@@ -94,66 +94,70 @@ Sound/
 ```
 ---
 
-## ⚙️ Installation & Setup
+## 🚀 Installation & Setup
 
-### 1️⃣ Clone the repository
+### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/yourusername/Rhythm-Rang.git
-cd Rhythm-Rang/Sound
+git clone https://github.com/yourusername/sound.git
+cd sound
+```
 
-2️⃣ Database Setup
-Import sound.sql into MySQL.
+### 2️⃣ Database Setup
+1. Import `sound.sql` into your MySQL server.
+2. Update database credentials in the PHP config file.
 
-Update database credentials in PHP config files (inside admin2/ and user/ folders).
+### 3️⃣ Chatbot Setup
 
-3️⃣ PHP Application Setup
-Place the Sound/ folder inside your server root (e.g., htdocs for XAMPP).
-
-Start Apache & MySQL in your local server environment.
-
-🤖 Running the Chatbot
-The chatbot can be deployed in two ways:
-
-Within Flask using Jinja2 templates – Both backend and frontend served from Flask.
-
-As a standalone API – Flask serves only the chatbot prediction API, and HTML/JS can be hosted in any frontend application (like our PHP project) with minor modifications.
-
-Initial Setup
+#### Initial Setup
+```bash
 cd chatbot
-python -m venv venv
+python3 -m venv venv
+source venv/bin/activate   # On Windows use: venv\Scripts\activate
+```
 
-Activate the virtual environment:
-
-Windows
-venv\Scripts\activate
-
-Mac/Linux
-source venv/bin/activate
-
-Install Dependencies
+#### Install Dependencies
+```bash
 pip install Flask torch torchvision nltk
+```
 
-Download NLTK data:
+#### Install NLTK Data
+```python
 python
 >>> import nltk
 >>> nltk.download('punkt')
->>> exit()
+```
 
-Train the Chatbot
-Modify intents.json to add or update chatbot responses, then run:
+#### Modify Training Data
+Edit `intents.json` with your own intents and responses.
+
+#### Train the Chatbot
+```bash
 python train.py
+```
 
-This will create data.pth (the trained model file).
-
-Test in Console
+#### Test in Console
+```bash
 python chat.py
+```
 
-Run Flask API
+#### Run Flask API
+```bash
 python app.py
+```
 
-The chatbot API will now be available at:
-http://127.0.0.1:5000
+---
 
+## 🖥 Running the Full Application
+1. Start your PHP server (XAMPP, WAMP, etc.) for the `user` and `admin2` folders.
+2. Start Flask API for the chatbot:
+   ```bash
+   cd chatbot
+   source venv/bin/activate
+   python app.py
+   ```
+3. Access the site in the browser (e.g., `http://localhost/sound/user`).
+
+---
 
 ✨ Author
 Developed by Abdul Rehman as part of a full-stack web development project.
