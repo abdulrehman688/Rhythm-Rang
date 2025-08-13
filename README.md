@@ -53,45 +53,46 @@ The project also includes a **custom AI chatbot** built in Python (Flask, PyTorc
 
 Sound/
 │
-├── admin2/ # Admin Panel
-│ ├── assets/
-│ ├── check/ # CSS/JS for checks
-│ ├── css/
-│ ├── css2/
-│ ├── headerandfooter/
-│ ├── images/
-│ ├── js/
-│ └── pages/ # PHP files & media assets for admin
-│ ├── audio/ # Audio files
-│ ├── video/ # Video files
-│ ├── banners/ # Banner images
-│ ├── slider/ # Slider images
-│ ├── artists/ # Artist images
-│ └── ... # Other admin resources
+├─ admin2/                         # Admin Panel
+│  ├─ assets/
+│  ├─ check/                       # CSS/JS for checks
+│  ├─ css/
+│  ├─ css2/
+│  ├─ headerandfooter/
+│  ├─ images/
+│  ├─ js/
+│  └─ pages/                       # Admin PHP files & media
+│     ├─ audio/                    # Audio files
+│     ├─ video/                    # Video files
+│     ├─ banners/                  # Banner images
+│     ├─ slider/                   # Slider images
+│     ├─ artists/                  # Artist images
+│     └─ ...                       # Other admin resources
 │
-├── chatbot/ # Python Chatbot Project
-│ ├── frontend/ # Chatbot UI (HTML/CSS/JS)
-│ ├── app.py # Flask API server
-│ ├── train.py # Model training script
-│ ├── chat.py # Command-line chatbot
-│ ├── model.py # PyTorch model definition
-│ ├── nltk_utils.py # NLP utilities
-│ ├── intents.json # Chatbot training data
-│ ├── data.pth # Saved trained model
-│ └── ... # venv, pycache, etc.
+├─ chatbot/                        # Python Chatbot Project
+│  ├─ frontend/                    # Chatbot UI (HTML/CSS/JS)
+│  ├─ app.py                       # Flask API server
+│  ├─ train.py                     # Model training script
+│  ├─ chat.py                      # Console chatbot
+│  ├─ model.py                     # PyTorch model definition
+│  ├─ nltk_utils.py                # NLP utilities
+│  ├─ intents.json                 # Training data (intents)
+│  ├─ data.pth                     # Trained model weights
+│  └─ ...                          # venv, __pycache__, etc.
 │
-├── report/ # Project Report
-│ └── PROJECTREPORT.pdf
+├─ report/
+│  └─ PROJECTREPORT.pdf
 │
-├── user/ # Main User-facing Web Application
-│ ├── css/
-│ ├── js/
-│ ├── headerfooter/
-│ ├── images/
-│ └── *.php # All frontend PHP pages
+├─ user/                           # User-facing Web App
+│  ├─ css/
+│  ├─ js/
+│  ├─ headerfooter/
+│  ├─ images/
+│  └─ *.php                        # Frontend PHP pages
 │
-├── sound.sql # MySQL database dump
-└── README.md
+├─ sound.sql                       # MySQL database dump
+└─ README.md
+
 
 
 ---
