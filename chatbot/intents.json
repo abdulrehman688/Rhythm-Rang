@@ -1,0 +1,795 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "What's up?",
+        "Good morning",
+        "Hey there",
+        "Howdy!",
+        "Yo!",
+        "Good evening",
+        "Hi there, how's it going?",
+        "Hey, what's new?"
+      ],
+      "responses": [
+        "Hey! Looking for some music recommendations?",
+        "Hello! How can I help with your music needs today?",
+        "Hi there! Ready for some awesome music suggestions?"
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "How are you?",
+        "How do you feel?",
+        "How's it going?",
+        "How are you doing?"
+      ],
+      "responses": [
+        "I'm doing well, thank you for asking!",
+        "I'm doing great, thanks for checking in!",
+        "I'm functioning well, how can I assist you?",
+        "I'm here to help! How about you?"
+      ]
+    },
+    {
+      "tag": "positive_feedback",
+      "patterns": [
+        "Nice",
+        "Great",
+        "Awesome",
+        "That's awesome",
+        "I like it",
+        "Cool",
+        "Fantastic",
+        "Superb",
+        "Amazing",
+        "Impressive",
+        "Lovely",
+        "Outstanding",
+        "Brilliant",
+        "Wonderful",
+        "Perfect",
+        "Spectacular",
+        "Fabulous",
+        "Remarkable",
+        "Marvelous",
+        "Splendid",
+        "Incredible",
+        "So good",
+        "Well done",
+        "Admirable",
+        "Phenomenal",
+        "Top notch",
+        "Excellent",
+        "Extraordinary",
+        "Beautiful"
+      ],
+      "responses": [
+        "I'm glad you like it!",
+        "Thanks! That means a lot.",
+        "I'm thrilled to hear that!",
+        "Awesome! Let's keep it up.",
+        "Thanks for the positive vibes!",
+        "I appreciate your kind words.",
+        "Glad you're impressed!",
+        "Your feedback made my day!",
+        "That's wonderful to hear!",
+        "Thanks! You're too kind.",
+        "Happy to hear you enjoyed it.",
+        "Much appreciated!",
+        "That makes me so happy!",
+        "Your support means everything!",
+        "Thanks for noticing!",
+        "You're awesome for saying that!",
+        "It's great to hear such feedback.",
+        "I'm so happy you think so!",
+        "Thanks a ton for the praise.",
+        "I'm honored by your kind words.",
+        "Cheers to that!",
+        "Music to my ears—thank you!",
+        "That's so encouraging to hear!",
+        "Your enthusiasm is contagious!",
+        "Humbled by your feedback.",
+        "Always happy to please!",
+        "Thanks for the amazing support.",
+        "Such kind words, thank you!",
+        "Let's keep up the good vibes."
+      ]
+    },    
+    {
+      "tag": "about_you",
+      "patterns": [
+        "What's your name?",
+        "Who are you?",
+        "Tell me about yourself.",
+        "What are you?",
+        "Where are you from?"
+      ],
+      "responses": [
+        "My name is Sound.",
+        "I'm an AI designed to help you with information and tasks.",
+        "I'm here to assist you in any way I can!",
+        "I exist in the digital world, created to help users like you."
+      ]
+    },        
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Take care",
+        "Catch you later",
+        "Later!",
+        "Adios!",
+        "See you around!",
+        "Bye-bye, take care!",
+        "Catch you later, alligator!"
+      ],
+      "responses": [
+        "See you later! Enjoy your music!",
+        "Goodbye! Hope you found some great tunes!",
+        "Take care, and happy listening!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?",
+        "Can you tell me the weather?",
+        "What's the forecast today?",
+        "How's the weather in [location]?"
+      ],
+      "responses": [
+        "I can't provide real-time weather, but you can check your local weather app or website!",
+        "You can check the current weather using your device's weather app.",
+        "Try checking a website like Weather.com for accurate weather information."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "Can you tell me the time?",
+        "What's the current time?",
+        "What's the time now?"
+      ],
+      "responses": [
+        "I don't have access to the current time, but you can check it on your device!",
+        "The time is available on your device's clock.",
+        "I recommend checking your phone or computer for the exact time."
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "What's the date today?",
+        "Can you tell me the date?",
+        "What is today's date?"
+      ],
+      "responses": [
+        "Today's date is available on your device, but I can check it for you if you want.",
+        "The date can be found on your device's calendar or home screen.",
+        "You can find today's date easily by checking your phone or computer."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "I need assistance.",
+        "Help me with something.",
+        "Can you do something for me?"
+      ],
+      "responses": [
+        "Of course! What do you need help with?",
+        "I'm here to assist you. What do you need?",
+        "Let me know what you're looking for, and I'll help you out!"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke.",
+        "Can you make me laugh?",
+        "Give me a funny joke.",
+        "Tell me something funny."
+      ],
+      "responses": [
+        "Why don't skeletons fight each other? They don't have the guts!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "Why don't eggs tell jokes? Because they'd crack each other up!"
+      ]
+    },
+    {
+      "tag": "calculator",
+      "patterns": [
+        "Can you solve a math problem?",
+        "What's 5 plus 5?",
+        "Can you do some calculations for me?",
+        "What's 10 multiplied by 2?"
+      ],
+      "responses": [
+        "5 plus 5 equals 10.",
+        "10 multiplied by 2 equals 20.",
+        "I can help you with more math problems if you need!",
+        "Give me a problem, and I'll solve it for you."
+      ]
+    },
+    {
+      "tag": "song_suggestion",
+      "patterns": [
+        "Suggest another",
+        "Suggest another song",
+        "Suggest more songs",
+        "Got more?",
+        "Give me another song",
+        "Another one, please",
+        "Play another",
+        "Play another song",
+        "Got more songs?",
+        "Can you suggest more?",
+        "What else do you have?",
+        "Suggest a new song",
+        "Recommend another",
+        "More, please",
+        "Can I have another suggestion?",
+        "Show me more songs",
+        "Play a new track",
+        "What's next?",
+        "Got anything else?",
+        "Give me more suggestions",
+        "Do you have more songs?",
+        "Can you recommend more?",
+        "Another song, please",
+        "Keep them coming",
+        "Suggest a different one",
+        "One more, please",
+        "I'd like another track",
+        "Play a different song",
+        "Any other suggestions?",
+        "Another recommendation?",
+        "More songs, please",
+        "Let's hear another one"
+      ],
+      "responses": [
+        "Sure! How about 'Tere Bin' by Atif Aslam?",
+        "Here's a classic: 'Tum Hi Ho' by Arijit Singh.",
+        "Let's try something upbeat: 'Amplifier' by Imran Khan.",
+        "You'll love this: 'Afreen Afreen' by Rahat Fateh Ali Khan.",
+        "How about this track: 'Jhoome Jo Pathaan' from *Pathaan*?",
+        "Here's a soulful song: 'Dil Diyan Gallan' by Atif Aslam.",
+        "Try this Punjabi hit: 'Lahore' by Guru Randhawa.",
+        "Check out this timeless tune: 'Pee Loon' by Mohit Chauhan.",
+        "Here's a Coke Studio gem: 'Tajdar-e-Haram' by Atif Aslam.",
+        "Let's keep the vibe going with 'Pasoori' by Ali Sethi and Shae Gill.",
+        "This one's a hit: 'Kesariya' by Arijit Singh from *Brahmastra*.",
+        "How about 'Gallan Goodiyan' from *Dil Dhadakne Do*?",
+        "Try this energetic track: 'Billo Ni Tera Lal Ghagra' by Neha Kakkar.",
+        "Here's something romantic: 'Bolna' by Arijit Singh and Asees Kaur.",
+        "You might enjoy 'Ik Pal' by Shafqat Amanat Ali.",
+        "This is a crowd favorite: 'Tu Jaane Na' by Atif Aslam.",
+        "Check out 'Patakha Guddi' by the Nooran Sisters from *Highway*.",
+        "How about 'Jubin Nautiyal's 'Raataan Lambiyan'?",
+        "Here's another gem: 'Sufi Tabassum' by Abida Parveen.",
+        "Enjoy this groovy track: 'Kala Chashma' by Amar Arshi.",
+        "This one's perfect for the mood: 'Peeche Hutt' by Hassan & Roshaan.",
+        "Try this soft melody: 'Ae Dil Hai Mushkil' by Arijit Singh.",
+        "Feeling nostalgic? Listen to 'Channa Mereya' by Arijit Singh.",
+        "Here's a pop favorite: 'Kar Gayi Chull' by Badshah and Neha Kakkar.",
+        "How about 'Aik Alif' by Saieen Zahoor and Noori from Coke Studio?",
+        "A Punjabi classic: 'Do You Know' by Diljit Dosanjh.",
+        "Here's an energetic one: 'Apna Time Aayega' by Ranveer Singh.",
+        "Another suggestion: 'Hawa Banke' by Darshan Raval.",
+        "Let's go retro with 'Dum Mast Qalandar' by Nusrat Fateh Ali Khan."
+      ]
+    },
+    {
+      "tag": "song_change_request",
+      "patterns": [
+        "I didn't like it",
+        "Change the taste",
+        "Something different",
+        "Not my type",
+        "Can we try another?",
+        "This isn't for me",
+        "Switch it up",
+        "Not a fan of this one",
+        "Play something else",
+        "I want a different song",
+        "Not feeling this track",
+        "Something new, please",
+        "I prefer a different vibe",
+        "This one's not my style",
+        "Play a different track",
+        "Got another suggestion?",
+        "Not into this one",
+        "Change the mood",
+        "Another style, please",
+        "Try a different genre",
+        "Not enjoying this song",
+        "Suggest a better one",
+        "Let's hear something fresh",
+        "Switch to a different vibe",
+        "This doesn't click for me",
+        "Play a unique track"
+      ],
+      "responses": [
+        "Got it! Try this one: 'Mitti Da Khadona' by Sahir Ali Bagga.",
+        "Here's something different: 'Jugni Ji' by Arif Lohar and Meesha Shafi.",
+        "How about this: 'Hawa Hawa' by Hassan Jahangir?",
+        "Let's switch it up with 'Sajna Door' by Abbas Ali Khan.",
+        "You might like 'Manmarziyan' by Amit Trivedi from *Lootera*.",
+        "Try this energetic one: 'Coca Cola' by Tony Kakkar and Neha Kakkar.",
+        "Here's a soothing choice: 'Ajj Din Chadheya' by Rahat Fateh Ali Khan.",
+        "Check out 'Bari' by Bilal Saeed and Momina Mustehsan.",
+        "How about this Punjabi hit: 'Gabru' by J Star?",
+        "Let's try 'Nadan Parindey' by A.R. Rahman from *Rockstar*.",
+        "Here's a romantic Urdu track: 'Bol' by Shuja Haider.",
+        "Try this melodious song: 'Tum Se Hi' by Mohit Chauhan from *Jab We Met*.",
+        "How about a Coke Studio classic: 'Neray Neray Vas' by Zeb and Haniya?",
+        "Switching vibes to 'Proper Patola' by Diljit Dosanjh and Badshah.",
+        "Here's a soulful pick: 'Zaroori Tha' by Rahat Fateh Ali Khan.",
+        "You might enjoy 'Bulleya' by Amit Mishra and Shilpa Rao from *Ae Dil Hai Mushkil*.",
+        "Try 'Ve Mahi' by Arijit Singh from *Kesari* for a change.",
+        "How about this refreshing Punjabi number: 'High Rated Gabru' by Guru Randhawa?",
+        "Switching the mood to 'Hamesha' by Strings.",
+        "Check out 'Dil Chori' by Yo Yo Honey Singh for a lively beat.",
+        "Here's something unique: 'Ghoomar' by Shreya Ghoshal from *Padmaavat*.",
+        "How about a nostalgic tune: 'Tera Ban Jaunga' by Akhil Sachdeva from *Kabir Singh*?",
+        "Try 'Chan Mahi' by Shuja Haider for a soft vibe.",
+        "Here's a pop twist: 'Bom Diggy Diggy' by Zack Knight and Jasmin Walia.",
+        "Check out 'Hum Dekhenge' by Iqbal Bano for a classic touch.",
+        "Switching genres to 'Ranjha' by B Praak and Jasleen Royal from *Shershaah*.",
+        "How about 'Coke Studio's 'Paar Channa De' by Shilpa Rao and Noori?",
+        "Let's try 'Chan Kithan' by Ali Sethi for a soothing feel.",
+        "Here's a groovy track: 'Laung Da Lashkara' by Mahalakshmi Iyer from *Patiala House*."
+      ]
+    },    
+    {
+      "tag": "simple_song",
+      "patterns": [
+        "Suggest a song.",
+        "Recommend a song.",
+        "Play a song.",
+        "Can you play a song?",
+        "Give me a song.",
+        "I need a song.",
+        "Any song suggestions?",
+        "Give me a song to listen to.",
+        "Play me a song.",
+        "I want a song.",
+        "Can you recommend a song?",
+        "Suggest something to listen to.",
+        "What's a good song?",
+        "Play something for me.",
+        "Any music recommendations?"
+      ],
+      "responses": [
+        "'Tera Ban Jaunga' by Tulsi Kumar & Akhil Sachdeva from *Kabir Singh*.",
+        "'Kala Chashma' by Amar Arshi, Badshah & Neha Kakkar from *Baar Baar Dekho*.",
+        "'Dil Dhadakne Do' by Priyanka Chopra & Farhan Akhtar from *Zindagi Na Milegi Dobara*.",
+        "'Channa Mereya' by Arijit Singh from *Ae Dil Hai Mushkil*.",
+        "'Tere Bina' by A. R. Rahman from *Guru*.",
+        "'Mitwa' by Shankar-Ehsaan-Loy from *Kabhi Alvida Naa Kehna*.",
+        "'Bulleya' by Pritam & Amit Mishra from *Ae Dil Hai Mushkil*.",
+        "'Afreen Afreen' by Rahat Fateh Ali Khan & Momina Mustehsan from *Coke Studio*.",
+        "'Ajeeb Dastaan Hai Yeh' by Lata Mangeshkar from *Dil Apna Aur Preet Parai*.",
+        "'Pehla Nasha' by Udit Narayan & Sadhana Sargam from *Jo Jeeta Wohi Sikandar*.",
+        "'Gallan Goodiyan' by Shankar Mahadevan, Sukhwinder Singh, and others from *Dil Dhadakne Do*.",
+        "'Laung Laachi' by Mannat Noor.",
+        "'Tujhe Dekha To' by Kumar Sanu & Lata Mangeshkar from *Dilwale Dulhania Le Jayenge*.",
+        "'Sun Saathiya' by Priya Saraiya from *ABCD 2*.",
+        "'Tum Hi Ho' by Arijit Singh from *Aashiqui 2*.",
+        "'Ae Dil Hai Mushkil' by Arijit Singh from *Ae Dil Hai Mushkil*.",
+        "'Dil Se Re' by A. R. Rahman from *Dil Se*.",
+        "'Hasi Ban Gaye' by Ami Mishra & Shreya Ghosal from *Hamari Adhuri Kahani*.",
+        "'Bairagi' by Arijit Singh from *Baaghi 3*.",
+        "'Zindagi Ek Safar Hai Suhana' by Kishore Kumar from *Andaaz*.",
+        "'Pee Loon (Unplugged)' by Mohit Chauhan from *Once Upon a Time in Mumbaai*.",
+        "'Kabira' by Arijit Singh & Harshdeep Kaur from *Yeh Jawaani Hai Deewani*.",
+        "'Raabta' by Arijit Singh from *Agent Vinod*.",
+        "'Kabhi Jo Baadal Barse' by Arijit Singh from *Jackpot*.",
+        "'Tera Ban Jaunga' by Akhil Sachdeva from *Kabir Singh*.",
+        "'Rang De Basanti' by A. R. Rahman from *Rang De Basanti*.",
+        "'Main Tera Boyfriend' by Arijit Singh from *Raabta*.",
+        "'Banjaara' by Mohd. Irfan from *Ek Villain*.",
+        "'Nashe Si Chadh Gayi' by Arijit Singh from *Befikre*.",
+        "'Tujh Mein Rab Dikhta Hai' by Roop Kumar Rathod from *Rab Ne Bana Di Jodi*.",
+        "'Tera Yaar Hoon Mai' by Arijit Singh from *Sonu Ke Titu Ki Sweety*.",
+        "'Phoolon Ka Taron Ka' by Kishore Kumar from *Hare Rama Hare Krishna*.",
+        "'Aashiq Surrender Hua' by Udit Narayan & Alka Yagnik from *Baazigar*.",
+        "'Agar Tum Saath Ho' by Alka Yagnik & Arijit Singh from *Tamasha*.",
+        "'Main Rang Sharbaton Ka' by Atif Aslam from *Phantom*.",
+        "'Dil Meri Na Sune' by Papon from *Independence Day*."
+      ]
+    },    
+    {
+      "COMMENT": "Genre List START",
+
+      "tag": "rock_genre",
+      "patterns": [
+        "Can you suggest some rock songs?",
+        "Know any good rock songs?",
+        "Play me a rock song."
+      ],
+      "responses": [
+        "Try 'Sayonee' by Junoon.",
+        "How about 'Bolo Bolo' by Strings?",
+        "'Sadda Haq' by Mohit Chauhan is a powerful track."
+      ]
+    },
+    {
+      "tag": "pop_genre",
+      "patterns": [
+        "I want to hear some pop music.",
+        "What's a chill pop song I should hear?",
+        "Give me a good pop track.",
+        "What's a fun pop song?"
+      ],
+      "responses": [
+        "Listen to 'Pee Jaun' by Farhan Saeed.",
+        "'Jeene Laga Hoon' by Atif Aslam is a great choice.",
+        "Try 'Pasoori' by Ali Sethi and Shae Gill."
+      ]
+    },
+    {
+      "tag": "jazz_genre",
+      "patterns": [
+        "Play me some jazz.",
+        "Any recommendations for jazz music?",
+        "Can you suggest a jazz classic?"
+      ],
+      "responses": [
+        "'Aaj Jaane Ki Zid Na Karo' by Farida Khanum has a jazzy feel.",
+        "Try 'Aik Alif' by Noori & Saieen Zahoor for a soulful vibe.",
+        "'Ab Ke Sawan' by Shubha Mudgal is worth exploring."
+      ]
+    },
+    {
+      "tag": "hip_hop_genre",
+      "patterns": [
+        "Suggest a hip hop song.",
+        "Suggest something in the hip-hop genre.",
+        "I want some hip hop to vibe to."
+      ],
+      "responses": [
+        "Check out 'Khanabadosh' by Soch the Band.",
+        "'Raftaar's 'Swag Mera Desi' is a fiery track.",
+        "Try 'Young Stunners' by Talha Anjum and Talhah Yunus."
+      ]
+    },
+    {
+      "tag": "classical_genre",
+      "patterns": [
+        "I'm in the mood for classical music.",
+        "Got any ideas for a classical playlist?",
+        "Any classical songs you'd recommend?"
+      ],
+      "responses": [
+        "Listen to 'Raga Yaman' by Ustad Rashid Khan.",
+        "'Koi Baat Chale' by Hariharan is a beautiful classical piece.",
+        "'Chhap Tilak' by Abida Parveen is a classic must-hear."
+      ]
+    },
+    {
+      "tag": "country_genre",
+      "patterns": [
+        "What are some good country songs?",
+        "What's a popular country song?",
+        "Suggest a country song."
+      ],
+      "responses": [
+        "'Dil Dhadakne Do' by Strings has a country-like charm.",
+        "'Yaadan Teriyan' by Falak Shabir is soulful.",
+        "Try 'Jugni' by Arif Lohar and Meesha Shafi."
+      ],
+
+      "COMMENT": "Genre List ENDED"
+    },
+
+    {
+      "COMMENT": "song_mood List START",
+
+      "tag": "upbeat_songs",
+      "patterns": [
+        "I need some upbeat songs.",
+        "Play an energetic track.",
+        "Play something cheerful.",
+        "What song is good for a party mood?",
+        "Play something that will energize me."
+      ],
+      "responses": [
+        "Try 'Kar Gayi Chull' by Badshah.",
+        "'Dil Dhadakne Do' by Shankar Ehsaan Loy is perfect for upbeat vibes.",
+        "'Tunak Tunak Tun' by Daler Mehndi will boost your energy instantly.",
+        "'Lungi Dance' by Yo Yo Honey Singh is a great party track."
+      ]
+    },
+    {
+      "tag": "relaxing_songs",
+      "patterns": [
+        "Play something relaxing.",
+        "I want something chill.",
+        "What's a calming tune to vibe to?",
+        "Can you play something peaceful?"
+      ],
+      "responses": [
+        "'Tum Hi Ho' by Arijit Singh is beautifully relaxing.",
+        "'Jhoom' by Ali Zafar is perfect for a calming mood.",
+        "Listen to 'Mora Saiyaan' by Fuzon for peace and serenity.",
+        "'Tera Ban Jaunga' by Akhil Sachdeva is a chill track."
+      ]
+    },
+    {
+      "tag": "sad_songs",
+      "patterns": [
+        "Suggest a sad song.",
+        "I feel low. Got any sad songs?",
+        "What's a soulful song for a sad mood?"
+      ],
+      "responses": [
+        "'Tera Mera Rishta' by Mustafa Zahid is a heart-touching track.",
+        "'Aadat' by Atif Aslam is a classic for sad vibes.",
+        "'Jeene Laga Hoon' by Atif Aslam captures emotional depth."
+      ]
+    },
+    {
+      "tag": "happy_songs",
+      "patterns": [
+        "Give me some happy tunes.",
+        "Do you know a happy song?",
+        "I need a feel-good song.",
+        "What's a song to cheer me up?"
+      ],
+      "responses": [
+        "'Gallan Goodiyan' by Dil Dhadakne Do cast is joyful and fun.",
+        "'Shaam' by Amit Trivedi is a delightful and happy tune.",
+        "'Oh Ho Ho Ho' by Sukhbir will definitely cheer you up."
+      ]
+    },
+    {
+      "tag": "motivational_songs",
+      "patterns": [
+        "Looking for motivational songs.",
+        "I need an uplifting song.",
+        "Suggest a motivational track to inspire me."
+      ],
+      "responses": [
+        "'Zinda' by Shankar Ehsaan Loy from 'Bhaag Milkha Bhaag' is inspiring.",
+        "'Kun Faya Kun' by A.R. Rahman uplifts the soul.",
+        "'Chak De India' by Sukhwinder Singh is an energetic motivator."
+      ],
+
+      "COMMENT": "song_mood List ENDED"
+    },
+
+    {
+      "COMMENT": "song_activity List START",
+
+      "tag": "workout_music",
+      "patterns": [
+        "I need workout music.",
+        "Can you play some energizing music for my workout?",
+        "What's a great song for a dance workout?"
+      ],
+      "responses": [
+        "Try 'Aaya Laariye' by Meesha Shafi for an energetic vibe.",
+        "'Zinda' from *Bhaag Milkha Bhaag* is perfect for workouts.",
+        "'Gallan Goodiyan' from *Dil Dhadakne Do* will keep you moving."
+      ]
+    },
+    {
+      "tag": "study_music",
+      "patterns": [
+        "What should I listen to while studying?",
+        "I need study music that helps me concentrate.",
+        "What's a good song for studying?"
+      ],
+      "responses": [
+        "'Piano by the Sea' by Relaxing Sounds of Nature.",
+        "'Jugni Ji' (Acoustic) by Arif Lohar and Meesha Shafi.",
+        "'Instrumental Bliss' by A.R. Rahman.",
+        "'Tajdar-e-Haram' (Coke Studio Instrumental).",
+        "'Guitar Unplugged' by Strings."
+      ]
+    },    
+    {
+      "tag": "party_music",
+      "patterns": [
+        "Can you recommend music for a party?",
+        "What should I listen to at a party?",
+        "Any tunes for a dance party?"
+      ],
+      "responses": [
+        "'Billo' by Abrar-ul-Haq is a timeless party hit.",
+        "'Lungi Dance' from *Chennai Express* will get everyone dancing.",
+        "'Amplifier' by Imran Khan is always a crowd favorite."
+      ]
+    },
+    {
+      "tag": "relaxing_music",
+      "patterns": [
+        "I need relaxing background music.",
+        "Can you play something calming?",
+        "I need some relaxing music for a calm night."
+      ],
+      "responses": [
+        "'Tajdar-e-Haram' by Coke Studio (Atif Aslam) is perfect for relaxation.",
+        "'Kabira' from *Yeh Jawaani Hai Deewani* has a soothing vibe.",
+        "'Aankhon Ke Sagar' by Fuzon is great for a peaceful night."
+      ]
+    },
+    {
+      "tag": "road_trip_music",
+      "patterns": [
+        "What's good for a road trip playlist?",
+        "What do you suggest for a chill evening drive?",
+        "What's a good road trip song?"
+      ],
+      "responses": [
+        "'Suno Chanda' by Coke Studio (Ali Zafar) is perfect for a road trip.",
+        "'Ilahi' from *Yeh Jawaani Hai Deewani* is a great driving song.",
+        "'Chaiyya Chaiyya' from *Dil Se* is an iconic track for long drives."
+      ]
+    },
+    {
+      "tag": "yoga_meditation_music",
+      "patterns": [
+        "What's good for yoga or meditation?",
+        "Give me something to listen to while meditating.",
+        "What music is best for yoga?"
+      ],
+      "responses": [
+        "'Kun Faya Kun' from *Rockstar* is ideal for meditation.",
+        "'Manzar-e-Khuda' by Jal Band is a beautiful track for mindfulness.",
+        "'Allah Hoo' by Coke Studio (Rahat Fateh Ali Khan) is great for yoga sessions."
+      ],
+
+      "COMMENT": "song_activity List ENDED"
+    },
+
+    {
+      "COMMENT": "song_decade List START",
+
+      "tag": "song_60s",
+      "patterns": [
+        "Can you recommend some 60s hits?",
+        "What was popular in the 60s?",
+        "Play me a 60s song."
+      ],
+      "responses": [
+        "'Lag Ja Gale' by Lata Mangeshkar from *Woh Kaun Thi*.",
+        "'Awaara Hoon' by Mukesh from *Awaara*.",
+        "'Dama Dam Mast Qalandar' by Noor Jehan."
+      ]
+    },
+    {
+      "tag": "song_70s",
+      "patterns": [
+        "What are some good songs from the 70s?",
+        "What's a legendary 70s tune?",
+        "Can you play a 70s song?"
+      ],
+      "responses": [
+        "'Chura Liya Hai Tumne' by Asha Bhosle and Mohammed Rafi from *Yaadon Ki Baaraat*.",
+        "'Dil Dhadakne Do' by Mehdi Hassan.",
+        "'Tum Aa Gaye Ho Noor Aa Gaya' by Kishore Kumar and Lata Mangeshkar from *Aandhi*."
+      ]
+    },
+    {
+      "tag": "song_80s",
+      "patterns": [
+        "I want to listen to 80s songs.",
+        "Give me a good 80s song."
+      ],
+      "responses": [
+        "'Hawa Hawa' by Hassan Jahangir.",
+        "'Tere Mere Beech Mein' by Lata Mangeshkar and S.P. Balasubrahmanyam from *Ek Duuje Ke Liye*.",
+        "'Aap Jaisa Koi' by Nazia Hassan from *Qurbani*."
+      ]
+    },
+    {
+      "tag": "song_90s",
+      "patterns": [
+        "Can you suggest some 90s music?",
+        "Can you name an iconic hit from the 90s?",
+        "Tell me a famous 90s song.",
+        "Show me some 90s music."
+      ],
+      "responses": [
+        "'Pehla Nasha' by Udit Narayan and Sadhana Sargam from *Jo Jeeta Wohi Sikandar*.",
+        "'Dil Dil Pakistan' by Vital Signs.",
+        "'Chaiyya Chaiyya' by Sukhwinder Singh and Sapna Awasthi from *Dil Se*."
+      ]
+    },
+    {
+      "tag": "song_2000s",
+      "patterns": [
+        "Play me some songs from the 2000s.",
+        "What's some awesome 2000s music?",
+        "I need a 2000s song to listen to."
+      ],
+      "responses": [
+        "'Tera Hone Laga Hoon' by Atif Aslam from *Ajab Prem Ki Ghazab Kahani*.",
+        "'Kajra Re' by Alisha Chinai, Shankar Mahadevan, and Javed Ali from *Bunty Aur Babli*.",
+        "'Sayonee' by Junoon (Remastered)."
+      ],
+      "COMMENT": "song_decade List START"
+    },                
+           
+    {
+      "COMMAET": "song_duration List START",
+      "tag": "short_song",
+      "patterns": [
+        "Can you suggest a short song?",
+        "Give me a quick song.",
+        "What's a good short song?",
+        "Can you play a song that's not too long?",
+        "Give me a song that won't take much time.",
+        "Can you suggest a song that's quick?"
+      ],
+      "responses": [
+        "'Pehla Nasha' by Udit Narayan and Sadhana Sargam from *Jo Jeeta Wohi Sikandar*.",
+        "'Chaiyya Chaiyya' by Sukhwinder Singh and Sapna Awasthi from *Dil Se*.",
+        "'Tera Hone Laga Hoon' by Atif Aslam from *Ajab Prem Ki Ghazab Kahani*.",
+        "'Kajra Re' by Alisha Chinai, Shankar Mahadevan, and Javed Ali from *Bunty Aur Babli*.",
+        "'Tera Ban Jaunga' by Tulsi Kumar & Akhil Sachdeva from *Kabir Singh*.",
+        "'Kala Chashma' by Amar Arshi, Badshah & Neha Kakkar from *Baar Baar Dekho*.",
+        "'Dil Dhadakne Do' by Priyanka Chopra & Farhan Akhtar from *Zindagi Na Milegi Dobara*.",
+        "'Lahore' by Guru Randhawa.",
+        "'Tujhe Dekha To' by Kumar Sanu & Lata Mangeshkar from *Dilwale Dulhania Le Jayenge*."
+      ]
+    },
+    {
+      "tag": "long_song",
+      "patterns": [
+        "I want a long song to relax.",
+        "Play something epic and long.",
+        "Give me a long song to unwind to.",
+        "What's a long relaxing song?",
+        "Can you suggest a long song to chill?",
+        "I want a song that's long and peaceful."
+      ],
+      "responses": [
+        "'Channa Mereya' by Arijit Singh from *Ae Dil Hai Mushkil*.",
+        "'Tere Bina' by A. R. Rahman from *Guru*.",
+        "'Mitwa' by Shankar-Ehsaan-Loy from *Kabhi Alvida Naa Kehna*.",
+        "'Bulleya' by Pritam & Amit Mishra from *Ae Dil Hai Mushkil*.",
+        "'Ajeeb Dastaan Hai Yeh' by Lata Mangeshkar from *Dil Apna Aur Preet Parai*."
+      ]
+    },
+    {
+      "tag": "medium_song",
+      "patterns": [
+        "Play a song that's a little longer.",
+        "Give me a quick jam for the road.",
+        "Suggest a fast song for a short trip.",
+        "I need a quick song for my drive."
+      ],
+      "responses": [
+        "'Coke Studio Season 10 - Afreen Afreen' by Rahat Fateh Ali Khan & Momina Mustehsan.",
+        "'Laung Laachi' by Mannat Noor.",
+        "'Gallan Goodiyan' by Shankar Mahadevan, Sukhwinder Singh, and others from *Dil Dhadakne Do*.",
+        "'Aaja Mahi' by Raftaar ft. Aditi Singh Sharma.",
+        "'Pehla Nasha' by Udit Narayan & Sadhana Sargam from *Jo Jeeta Wohi Sikandar*."
+      ]
+    },         
+
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "Can you rephrase that?",
+        "I'm not sure I understand. Can you clarify?",
+        "Sorry, I didn't catch that. Could you say it differently?"
+      ]
+    }
+  ]
+}
+
