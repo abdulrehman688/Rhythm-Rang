@@ -48,11 +48,10 @@ The project also includes a **custom AI chatbot** built in Python (Flask, PyTorc
 - CRUD-based admin panel
 
 ---
----
 ## 📂 Project Structure
 
+```plaintext
 Sound/
-│
 ├─ admin2/                         # Admin Panel
 │  ├─ assets/
 │  ├─ check/                       # CSS/JS for checks
@@ -77,7 +76,7 @@ Sound/
 │  ├─ model.py                     # PyTorch model definition
 │  ├─ nltk_utils.py                # NLP utilities
 │  ├─ intents.json                 # Training data (intents)
-│  ├─ data.pth                      # Trained model weights
+│  ├─ data.pth                     # Trained model weights
 │  └─ ...                          # venv, __pycache__, etc.
 │
 ├─ report/
@@ -92,10 +91,7 @@ Sound/
 │
 ├─ sound.sql                       # MySQL database dump
 └─ README.md
-
-
----
-
+```
 ---
 
 ## ⚙️ Installation & Setup
